@@ -1,11 +1,10 @@
 // nyaz-aval/src/App.js
 import './App.css';
+import AppRoutes from './routes/index.routes';
 
 function App() {
   return (
-    <div className="App">
-    hello world
-    </div>
+    <AppRoutes />
   );
 }
 
